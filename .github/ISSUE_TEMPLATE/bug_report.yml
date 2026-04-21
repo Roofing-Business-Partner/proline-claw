@@ -1,0 +1,71 @@
+name: Bug report
+description: Something in proline-claw isn't working as expected — an API call, a script, a doc inaccuracy, or an unexpected ProLine response.
+title: "[Bug] "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please include enough context that someone else can reproduce the issue without your tenant.
+        **Do not paste your `PROLINE_PARTNER_KEY` or `PROLINE_COMPANY_KEY`.** Redact them before pasting any command output.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of the skill is affected?
+      options:
+        - Scripts (daily-sync / weather-check / onboard / init-db)
+        - SKILL.md recipe
+        - ProLine API behavior (endpoint quirk, new gotcha)
+        - Documentation
+        - Schema / SQLite
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the actual behavior. Include error messages verbatim (with keys redacted).
+      placeholder: e.g. `daily-sync.py` errored with `sqlite3.OperationalError: no such column: ...`
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      placeholder: e.g. The sync should have completed without error.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Include the exact command(s) you ran and the relevant tenant state (e.g. "5 projects in LEADS, 2 in QUOTED").
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: proline-claw version / commit
+      description: "Output of `git rev-parse --short HEAD` or the release tag."
+      placeholder: e.g. v0.1.0 or 1a2b3c4
+    validations:
+      required: false
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      placeholder: macOS 14 / Python 3.11 / SQLite 3.43
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I've redacted all API keys, partner keys, and tenant IDs from pasted output.
+          required: true
+        - label: I've checked `docs/permissions.md` and `docs/field-notes.md` to confirm this isn't a documented limitation.
+          required: true

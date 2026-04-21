@@ -1,0 +1,24 @@
+# proline-claw — Dependencies
+# All core dependencies are Python 3 standard library or system tools.
+# No pip installs required for core functionality.
+
+# --- System Requirements ---
+# Python 3.8+          (scripts)
+# SQLite 3.x           (database — ships with macOS/Linux)
+# curl                  (API calls — ships with macOS/Linux)
+
+# --- External APIs (Free, No Keys) ---
+# Open-Meteo            https://api.open-meteo.com            (weather forecasts)
+# Nominatim/OSM         https://nominatim.openstreetmap.org   (geocoding)
+
+# --- External APIs (Keys Required) ---
+# ProLine Partner API   https://api.proline.app/v1
+#   Env: PROLINE_PARTNER_KEY, PROLINE_COMPANY_KEY
+#   Partner key must be formally requested from ProLine — see docs/partner-key-request.md
+
+# --- Future Integrations (Not Yet Connected) ---
+# CallRail API          (marketing attribution — needs credentials)
+# Make.com              (webhook middleware — needs account access)
+# Google Calendar API   (scheduling — needs OAuth setup)
+# QuickBooks API        (accounting — needs OAuth setup)
+# CompanyCam API        (field photos — needs credentials)

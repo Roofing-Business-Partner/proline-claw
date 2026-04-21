@@ -1,0 +1,51 @@
+name: Feature request
+description: Propose a new workflow recipe, endpoint coverage, integration, or capability.
+title: "[Feature] "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing. Good feature requests describe a concrete user outcome — not just a technical addition.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - New ProLine endpoint coverage
+        - New workflow recipe (SKILL.md)
+        - New integration (CallRail, CompanyCam, QuickBooks, etc.)
+        - New SQLite table or field
+        - Script enhancement (sync, weather, onboard)
+        - Developer experience / onboarding
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's the problem or opportunity?
+      description: What does a roofing company user struggle with today that this would address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the feature at a high level. Include specifics where you have them (endpoint, flow, data model).
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What other approaches did you consider, and why did you pick this one?
+    validations:
+      required: false
+  - type: input
+    id: willing-to-pr
+    attributes:
+      label: Would you be willing to submit a PR?
+      placeholder: Yes / No / Maybe with guidance
+    validations:
+      required: false

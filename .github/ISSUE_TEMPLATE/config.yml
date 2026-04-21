@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Commercial support or a pre-built harness
+    url: https://roofclaw.com
+    about: Looking for a fully configured OpenClaw agent with this skill pre-installed, ongoing updates, and someone to call when it breaks? RoofClaw is the paid product.
+  - name: ProLine API questions
+    url: https://docs.proline.app/partner-api
+    about: For general ProLine API questions, start with ProLine's official docs. For bugs in proline-claw's handling of the API, open a bug report here.
+  - name: Partner key request
+    url: https://github.com/roofclaw/proline-claw/blob/main/docs/partner-key-request.md
+    about: Need a ProLine Partner API key? Read the request guide first.

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 init-db.py — Initialize the local SQLite database from schema/schema.sql
-Part of proline-claw (https://github.com/roofclaw/proline-claw)
+Part of proline-claw (https://github.com/Roofing-Business-Partner/proline-claw)
 
 Idempotent. Creates data/proline.db with all 15 tables and their indexes.
 Safe to run more than once — CREATE TABLE IF NOT EXISTS means existing data

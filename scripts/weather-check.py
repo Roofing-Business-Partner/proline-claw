@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 weather-check.py — Rain Day Decision Engine
-Part of proline-claw (https://github.com/roofclaw/proline-claw)
+Part of proline-claw (https://github.com/Roofing-Business-Partner/proline-claw)
 
 Checks weather for tomorrow's scheduled jobs and scores risk.
 Run twice: evening (9pm) and morning (5am).

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 daily-sync.py — ProLine → SQLite daily sync
-Part of proline-claw (https://github.com/roofclaw/proline-claw)
+Part of proline-claw (https://github.com/Roofing-Business-Partner/proline-claw)
 
 Runs as a cron job (recommended: 5am local time).
 No LLM tokens required — pure API + database operations.

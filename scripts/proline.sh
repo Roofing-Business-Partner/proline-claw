@@ -1,6 +1,6 @@
 #!/bin/bash
 # proline.sh — Reusable ProLine API helpers
-# Part of proline-claw (https://github.com/roofclaw/proline-claw)
+# Part of proline-claw (https://github.com/Roofing-Business-Partner/proline-claw)
 #
 # Source this file in your shell to get proline_* helper functions:
 #   source scripts/proline.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
 # pipeline-scan.sh — Scan all known projects and generate a pipeline report
-# Part of proline-claw (https://github.com/roofclaw/proline-claw)
+# Part of proline-claw (https://github.com/Roofing-Business-Partner/proline-claw)
 #
 # Legacy CLI alternative to daily-sync.py. Reads project IDs from the local
 # SQLite DB and re-queries each one live. Use daily-sync.py for persistent

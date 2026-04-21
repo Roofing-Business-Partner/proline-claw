@@ -26,4 +26,4 @@ All notable changes to `proline-claw` are recorded here. The format follows [Kee
 
 Converted from a one-off customer build. Original customer-specific data, credentials, and tenant IDs have been stripped. Authored by [RoofClaw](https://roofclaw.com). MIT-licensed.
 
-[0.1.0]: https://github.com/roofclaw/proline-claw/releases/tag/v0.1.0
+[0.1.0]: https://github.com/Roofing-Business-Partner/proline-claw/releases/tag/v0.1.0

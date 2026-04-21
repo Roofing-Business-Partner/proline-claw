@@ -7,5 +7,5 @@ contact_links:
     url: https://docs.proline.app/partner-api
     about: For general ProLine API questions, start with ProLine's official docs. For bugs in proline-claw's handling of the API, open a bug report here.
   - name: Partner key request
-    url: https://github.com/roofclaw/proline-claw/blob/main/docs/partner-key-request.md
+    url: https://github.com/Roofing-Business-Partner/proline-claw/blob/main/docs/partner-key-request.md
     about: Need a ProLine Partner API key? Read the request guide first.

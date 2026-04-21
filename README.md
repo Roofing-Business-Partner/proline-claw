@@ -71,7 +71,7 @@ No pip installs required for core functionality.
 
 ```bash
 # 1. Clone
-git clone https://github.com/roofclaw/proline-claw.git
+git clone https://github.com/Roofing-Business-Partner/proline-claw.git
 cd proline-claw
 
 # 2. Set your credentials

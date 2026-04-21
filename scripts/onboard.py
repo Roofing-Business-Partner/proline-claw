@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 onboard.py — First-run wizard for proline-claw
-Part of proline-claw (https://github.com/roofclaw/proline-claw)
+Part of proline-claw (https://github.com/Roofing-Business-Partner/proline-claw)
 
 Validates your ProLine credentials, discovers your tenant's stage IDs and
 team member IDs, seeds your local SQLite DB with a starter batch of projects,

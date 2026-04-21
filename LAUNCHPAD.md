@@ -310,7 +310,7 @@ Add a section like:
 ### Key constraints to remember
 - Stage moves require stage IDs, not stage names — see tenant-config.local.json
 - Notes overwrite — always read existing notes before writing
-- Activity endpoints (calls, alerts, messages) are non-functional — log via project_notes
+- Activity endpoints (calls, alerts, messages) are disabled at the standard partner tier — contact ProLine to request elevated access; log via project_notes until enabled
 - Financial fields are read-only via API
 - Rate limit: ~5 seconds between calls to the same endpoint
 - edit/contact is broken — update contacts via edit/project

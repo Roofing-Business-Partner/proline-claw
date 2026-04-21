@@ -345,7 +345,7 @@ See `docs/field-notes.md` for the full list. Critical ones:
 - **Names:** Use `contact_fname` + `contact_lname` separately — never rely on `contact_name` auto-splitting
 - **Stages:** Use stage IDs — string names silently fail
 - **`edit/contact`:** Non-functional — update contacts via `edit/project` with `project_id`
-- **Activity endpoints:** All non-functional (`create_alert`, `create_call`, `create_message`) — log activity in `project_notes` instead
+- **Activity endpoints:** Disabled at the standard partner tier (`create_alert`, `create_call`, `create_message`) — contact ProLine to request elevated access. Until enabled, log activity in `project_notes` instead
 - **Financial fields:** Read-only via API — use ProLine UI
 - **Rate limits:** ~5 seconds between calls to the same endpoint
 - **`events/edit`:** Defaults to Inspection type, 60 min duration when not specified
